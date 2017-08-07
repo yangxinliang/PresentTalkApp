@@ -24,9 +24,31 @@ class BaseStrategyCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+
+       setUpUI()
+    
     }
 
+    // mark： - 视图
+    fileprivate func setUpUI() {
+    
+        selectionStyle = UITableViewCellSelectionStyle.none
+        layer.borderWidth = 3;
+        layer.borderColor = Color_GlobalBackground.cgColor
+        
+        tagBtn.layer.cornerRadius = 5.0
+        tagBtn.layer.masksToBounds = true
+        
+        headBtn.layer.cornerRadius = headBtn.bounds.width * 0.5
+        headBtn.layer.masksToBounds = true
+        
+        coverImageview.clipsToBounds = true
+        coverImageview.contentMode = UIViewContentMode.scaleAspectFill
+        coverImageview.image = UIImage(named: "strategy_\(Int(arc4random() % 17) + 1).jpg")
+    
+    }
+    
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
