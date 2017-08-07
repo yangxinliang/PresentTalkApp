@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40B91BCA819B2FA961C832F3 /* Pods_PresentTalkApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A816069D94B04DFC9E2CFD /* Pods_PresentTalkApp.framework */; };
+		BE28EDE11E9F53B600E75860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28EDE01E9F53B600E75860 /* AppDelegate.swift */; };
+		BE28EDE81E9F53B600E75860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE28EDE71E9F53B600E75860 /* Assets.xcassets */; };
+		BE28EDF61E9F53B600E75860 /* PresentTalkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28EDF51E9F53B600E75860 /* PresentTalkAppTests.swift */; };
+		BE28EE011E9F53B600E75860 /* PresentTalkAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28EE001E9F53B600E75860 /* PresentTalkAppUITests.swift */; };
+		BE28EE131E9F652900E75860 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28EE121E9F652900E75860 /* TabBarViewController.swift */; };
+		BE28EE151E9F6A1A00E75860 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28EE141E9F6A1A00E75860 /* Common.swift */; };
+		BE28EE171E9F6ACC00E75860 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28EE161E9F6ACC00E75860 /* NavigationViewController.swift */; };
+		BE28EE211E9F832300E75860 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28EE201E9F832300E75860 /* UIImage+Extension.swift */; };
+		BE28EE251EA06EEF00E75860 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28EE241EA06EEF00E75860 /* UIButton+Extension.swift */; };
+		BE28EE311EA073AF00E75860 /* goods_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE271EA073AF00E75860 /* goods_1.jpg */; };
+		BE28EE321EA073AF00E75860 /* goods_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE281EA073AF00E75860 /* goods_10.jpg */; };
+		BE28EE331EA073AF00E75860 /* goods_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE291EA073AF00E75860 /* goods_2.jpg */; };
+		BE28EE341EA073AF00E75860 /* goods_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE2A1EA073AF00E75860 /* goods_3.jpg */; };
+		BE28EE351EA073AF00E75860 /* goods_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE2B1EA073AF00E75860 /* goods_4.jpg */; };
+		BE28EE361EA073AF00E75860 /* goods_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE2C1EA073AF00E75860 /* goods_5.jpg */; };
+		BE28EE371EA073AF00E75860 /* goods_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE2D1EA073AF00E75860 /* goods_6.jpg */; };
+		BE28EE381EA073AF00E75860 /* goods_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE2E1EA073AF00E75860 /* goods_7.jpg */; };
+		BE28EE391EA073AF00E75860 /* goods_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE2F1EA073AF00E75860 /* goods_8.jpg */; };
+		BE28EE3A1EA073AF00E75860 /* goods_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE301EA073AF00E75860 /* goods_9.jpg */; };
+		BE28EE4D1EA073BD00E75860 /* strategy_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE3C1EA073BD00E75860 /* strategy_1.jpg */; };
+		BE28EE4E1EA073BD00E75860 /* strategy_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE3D1EA073BD00E75860 /* strategy_10.jpg */; };
+		BE28EE4F1EA073BD00E75860 /* strategy_11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE3E1EA073BD00E75860 /* strategy_11.jpg */; };
+		BE28EE501EA073BD00E75860 /* strategy_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE3F1EA073BD00E75860 /* strategy_12.jpg */; };
+		BE28EE511EA073BD00E75860 /* strategy_13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE401EA073BD00E75860 /* strategy_13.jpg */; };
+		BE28EE521EA073BD00E75860 /* strategy_14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE411EA073BD00E75860 /* strategy_14.jpg */; };
+		BE28EE531EA073BD00E75860 /* strategy_15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE421EA073BD00E75860 /* strategy_15.jpg */; };
+		BE28EE541EA073BD00E75860 /* strategy_16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE431EA073BD00E75860 /* strategy_16.jpg */; };
+		BE28EE551EA073BD00E75860 /* strategy_17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE441EA073BD00E75860 /* strategy_17.jpg */; };
+		BE28EE561EA073BD00E75860 /* strategy_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE451EA073BD00E75860 /* strategy_2.jpg */; };
+		BE28EE571EA073BD00E75860 /* strategy_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE461EA073BD00E75860 /* strategy_3.jpg */; };
+		BE28EE581EA073BD00E75860 /* strategy_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE471EA073BD00E75860 /* strategy_4.jpg */; };
+		BE28EE591EA073BD00E75860 /* strategy_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE481EA073BD00E75860 /* strategy_5.jpg */; };
+		BE28EE5A1EA073BD00E75860 /* strategy_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE491EA073BD00E75860 /* strategy_6.jpg */; };
+		BE28EE5B1EA073BD00E75860 /* strategy_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE4A1EA073BD00E75860 /* strategy_7.jpg */; };
+		BE28EE5C1EA073BD00E75860 /* strategy_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE4B1EA073BD00E75860 /* strategy_8.jpg */; };
+		BE28EE5D1EA073BD00E75860 /* strategy_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE28EE4C1EA073BD00E75860 /* strategy_9.jpg */; };
+		BE28EE631EA07E3A00E75860 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28EE621EA07E3A00E75860 /* HomeViewController.swift */; };
+		BE28EE661EA07E9A00E75860 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28EE651EA07E9A00E75860 /* BaseViewController.swift */; };
+		BE28EE681EA07ED800E75860 /* HotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28EE671EA07ED800E75860 /* HotViewController.swift */; };
+		BE28EE6A1EA07EEA00E75860 /* ClassifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28EE691EA07EEA00E75860 /* ClassifyViewController.swift */; };
+		BE28EE6D1EA07F0400E75860 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28EE6C1EA07F0400E75860 /* MeViewController.swift */; };
+		BE2B8F5F1F341AB200605BBD /* PopoverCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2B8F5E1F341AB200605BBD /* PopoverCategoryView.swift */; };
+		BE2B8F6A1F345B7F00605BBD /* MaskCoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2B8F691F345B7F00605BBD /* MaskCoverView.swift */; };
+		BE2B8F711F35BC4800605BBD /* BaseStrategyFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2B8F701F35BC4800605BBD /* BaseStrategyFeedController.swift */; };
+		BE2B8F741F35C8F200605BBD /* BaseStrategyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2B8F721F35C8F200605BBD /* BaseStrategyCell.swift */; };
+		BE2B8F751F35C8F200605BBD /* BaseStrategyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE2B8F731F35C8F200605BBD /* BaseStrategyCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE28EDF21E9F53B600E75860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE28EDD51E9F53B600E75860 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE28EDDC1E9F53B600E75860;
+			remoteInfo = PresentTalkApp;
+		};
+		BE28EDFD1E9F53B600E75860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE28EDD51E9F53B600E75860 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE28EDDC1E9F53B600E75860;
+			remoteInfo = PresentTalkApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99A816069D94B04DFC9E2CFD /* Pods_PresentTalkApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PresentTalkApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CBA45C833981546F3B8102 /* Pods-PresentTalkApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresentTalkApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PresentTalkApp/Pods-PresentTalkApp.release.xcconfig"; sourceTree = "<group>"; };
+		B718026C931DB143FA216417 /* Pods-PresentTalkApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresentTalkApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PresentTalkApp/Pods-PresentTalkApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BE28EDDD1E9F53B600E75860 /* PresentTalkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresentTalkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE28EDE01E9F53B600E75860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE28EDE71E9F53B600E75860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE28EDEC1E9F53B600E75860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE28EDF11E9F53B600E75860 /* PresentTalkAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentTalkAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE28EDF51E9F53B600E75860 /* PresentTalkAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentTalkAppTests.swift; sourceTree = "<group>"; };
+		BE28EDF71E9F53B600E75860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE28EDFC1E9F53B600E75860 /* PresentTalkAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentTalkAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE28EE001E9F53B600E75860 /* PresentTalkAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentTalkAppUITests.swift; sourceTree = "<group>"; };
+		BE28EE021E9F53B600E75860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE28EE121E9F652900E75860 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		BE28EE141E9F6A1A00E75860 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		BE28EE161E9F6ACC00E75860 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		BE28EE201E9F832300E75860 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		BE28EE241EA06EEF00E75860 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		BE28EE271EA073AF00E75860 /* goods_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goods_1.jpg; sourceTree = "<group>"; };
+		BE28EE281EA073AF00E75860 /* goods_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goods_10.jpg; sourceTree = "<group>"; };
+		BE28EE291EA073AF00E75860 /* goods_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goods_2.jpg; sourceTree = "<group>"; };
+		BE28EE2A1EA073AF00E75860 /* goods_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goods_3.jpg; sourceTree = "<group>"; };
+		BE28EE2B1EA073AF00E75860 /* goods_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goods_4.jpg; sourceTree = "<group>"; };
+		BE28EE2C1EA073AF00E75860 /* goods_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goods_5.jpg; sourceTree = "<group>"; };
+		BE28EE2D1EA073AF00E75860 /* goods_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goods_6.jpg; sourceTree = "<group>"; };
+		BE28EE2E1EA073AF00E75860 /* goods_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goods_7.jpg; sourceTree = "<group>"; };
+		BE28EE2F1EA073AF00E75860 /* goods_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goods_8.jpg; sourceTree = "<group>"; };
+		BE28EE301EA073AF00E75860 /* goods_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goods_9.jpg; sourceTree = "<group>"; };
+		BE28EE3C1EA073BD00E75860 /* strategy_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_1.jpg; sourceTree = "<group>"; };
+		BE28EE3D1EA073BD00E75860 /* strategy_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_10.jpg; sourceTree = "<group>"; };
+		BE28EE3E1EA073BD00E75860 /* strategy_11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_11.jpg; sourceTree = "<group>"; };
+		BE28EE3F1EA073BD00E75860 /* strategy_12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_12.jpg; sourceTree = "<group>"; };
+		BE28EE401EA073BD00E75860 /* strategy_13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_13.jpg; sourceTree = "<group>"; };
+		BE28EE411EA073BD00E75860 /* strategy_14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_14.jpg; sourceTree = "<group>"; };
+		BE28EE421EA073BD00E75860 /* strategy_15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_15.jpg; sourceTree = "<group>"; };
+		BE28EE431EA073BD00E75860 /* strategy_16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_16.jpg; sourceTree = "<group>"; };
+		BE28EE441EA073BD00E75860 /* strategy_17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_17.jpg; sourceTree = "<group>"; };
+		BE28EE451EA073BD00E75860 /* strategy_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_2.jpg; sourceTree = "<group>"; };
+		BE28EE461EA073BD00E75860 /* strategy_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_3.jpg; sourceTree = "<group>"; };
+		BE28EE471EA073BD00E75860 /* strategy_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_4.jpg; sourceTree = "<group>"; };
+		BE28EE481EA073BD00E75860 /* strategy_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_5.jpg; sourceTree = "<group>"; };
+		BE28EE491EA073BD00E75860 /* strategy_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_6.jpg; sourceTree = "<group>"; };
+		BE28EE4A1EA073BD00E75860 /* strategy_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_7.jpg; sourceTree = "<group>"; };
+		BE28EE4B1EA073BD00E75860 /* strategy_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_8.jpg; sourceTree = "<group>"; };
+		BE28EE4C1EA073BD00E75860 /* strategy_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strategy_9.jpg; sourceTree = "<group>"; };
+		BE28EE621EA07E3A00E75860 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BE28EE651EA07E9A00E75860 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BE28EE671EA07ED800E75860 /* HotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotViewController.swift; sourceTree = "<group>"; };
+		BE28EE691EA07EEA00E75860 /* ClassifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifyViewController.swift; sourceTree = "<group>"; };
+		BE28EE6C1EA07F0400E75860 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		BE2B8F5E1F341AB200605BBD /* PopoverCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverCategoryView.swift; sourceTree = "<group>"; };
+		BE2B8F691F345B7F00605BBD /* MaskCoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskCoverView.swift; sourceTree = "<group>"; };
+		BE2B8F701F35BC4800605BBD /* BaseStrategyFeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseStrategyFeedController.swift; sourceTree = "<group>"; };
+		BE2B8F721F35C8F200605BBD /* BaseStrategyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseStrategyCell.swift; sourceTree = "<group>"; };
+		BE2B8F731F35C8F200605BBD /* BaseStrategyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseStrategyCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE28EDDA1E9F53B600E75860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B91BCA819B2FA961C832F3 /* Pods_PresentTalkApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE28EDEE1E9F53B600E75860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE28EDF91E9F53B600E75860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F5F96D58641C2D0DB5D6ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99A816069D94B04DFC9E2CFD /* Pods_PresentTalkApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82CA56386856E29A697DB8B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B718026C931DB143FA216417 /* Pods-PresentTalkApp.debug.xcconfig */,
+				A5CBA45C833981546F3B8102 /* Pods-PresentTalkApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE28EDD41E9F53B600E75860 = {
+			isa = PBXGroup;
+			children = (
+				BE28EDDF1E9F53B600E75860 /* PresentTalkApp */,
+				BE28EDF41E9F53B600E75860 /* PresentTalkAppTests */,
+				BE28EDFF1E9F53B600E75860 /* PresentTalkAppUITests */,
+				BE28EDDE1E9F53B600E75860 /* Products */,
+				82CA56386856E29A697DB8B6 /* Pods */,
+				00F5F96D58641C2D0DB5D6ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE28EDDE1E9F53B600E75860 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE28EDDD1E9F53B600E75860 /* PresentTalkApp.app */,
+				BE28EDF11E9F53B600E75860 /* PresentTalkAppTests.xctest */,
+				BE28EDFC1E9F53B600E75860 /* PresentTalkAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE28EDDF1E9F53B600E75860 /* PresentTalkApp */ = {
+			isa = PBXGroup;
+			children = (
+				BE28EE181E9F7D8400E75860 /* Extension */,
+				BE28EDE01E9F53B600E75860 /* AppDelegate.swift */,
+				BE28EE141E9F6A1A00E75860 /* Common.swift */,
+				BE28EE0F1E9F64A400E75860 /* Class */,
+				BE28EE0E1E9F648400E75860 /* Source */,
+				BE28EDE71E9F53B600E75860 /* Assets.xcassets */,
+				BE28EDEC1E9F53B600E75860 /* Info.plist */,
+			);
+			path = PresentTalkApp;
+			sourceTree = "<group>";
+		};
+		BE28EDF41E9F53B600E75860 /* PresentTalkAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE28EDF51E9F53B600E75860 /* PresentTalkAppTests.swift */,
+				BE28EDF71E9F53B600E75860 /* Info.plist */,
+			);
+			path = PresentTalkAppTests;
+			sourceTree = "<group>";
+		};
+		BE28EDFF1E9F53B600E75860 /* PresentTalkAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE28EE001E9F53B600E75860 /* PresentTalkAppUITests.swift */,
+				BE28EE021E9F53B600E75860 /* Info.plist */,
+			);
+			path = PresentTalkAppUITests;
+			sourceTree = "<group>";
+		};
+		BE28EE0E1E9F648400E75860 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BE28EE3B1EA073BD00E75860 /* strategy */,
+				BE28EE261EA073AF00E75860 /* goods */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		BE28EE0F1E9F64A400E75860 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				BE2B8F5C1F341A4900605BBD /* Common */,
+				BE28EE5E1EA07DCD00E75860 /* Home */,
+				BE28EE5F1EA07DD900E75860 /* Hot */,
+				BE28EE601EA07DEE00E75860 /* Classify */,
+				BE28EE611EA07DFF00E75860 /* Me */,
+				BE28EE101E9F64BB00E75860 /* Root */,
+				BE28EE111E9F64CD00E75860 /* Base */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		BE28EE101E9F64BB00E75860 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				BE28EE121E9F652900E75860 /* TabBarViewController.swift */,
+				BE28EE161E9F6ACC00E75860 /* NavigationViewController.swift */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		BE28EE111E9F64CD00E75860 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BE28EE651EA07E9A00E75860 /* BaseViewController.swift */,
+				BE2B8F6F1F35BC0500605BBD /* StrategyFeed */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		BE28EE181E9F7D8400E75860 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BE28EE201E9F832300E75860 /* UIImage+Extension.swift */,
+				BE28EE241EA06EEF00E75860 /* UIButton+Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		BE28EE261EA073AF00E75860 /* goods */ = {
+			isa = PBXGroup;
+			children = (
+				BE28EE271EA073AF00E75860 /* goods_1.jpg */,
+				BE28EE281EA073AF00E75860 /* goods_10.jpg */,
+				BE28EE291EA073AF00E75860 /* goods_2.jpg */,
+				BE28EE2A1EA073AF00E75860 /* goods_3.jpg */,
+				BE28EE2B1EA073AF00E75860 /* goods_4.jpg */,
+				BE28EE2C1EA073AF00E75860 /* goods_5.jpg */,
+				BE28EE2D1EA073AF00E75860 /* goods_6.jpg */,
+				BE28EE2E1EA073AF00E75860 /* goods_7.jpg */,
+				BE28EE2F1EA073AF00E75860 /* goods_8.jpg */,
+				BE28EE301EA073AF00E75860 /* goods_9.jpg */,
+			);
+			path = goods;
+			sourceTree = "<group>";
+		};
+		BE28EE3B1EA073BD00E75860 /* strategy */ = {
+			isa = PBXGroup;
+			children = (
+				BE28EE3C1EA073BD00E75860 /* strategy_1.jpg */,
+				BE28EE3D1EA073BD00E75860 /* strategy_10.jpg */,
+				BE28EE3E1EA073BD00E75860 /* strategy_11.jpg */,
+				BE28EE3F1EA073BD00E75860 /* strategy_12.jpg */,
+				BE28EE401EA073BD00E75860 /* strategy_13.jpg */,
+				BE28EE411EA073BD00E75860 /* strategy_14.jpg */,
+				BE28EE421EA073BD00E75860 /* strategy_15.jpg */,
+				BE28EE431EA073BD00E75860 /* strategy_16.jpg */,
+				BE28EE441EA073BD00E75860 /* strategy_17.jpg */,
+				BE28EE451EA073BD00E75860 /* strategy_2.jpg */,
+				BE28EE461EA073BD00E75860 /* strategy_3.jpg */,
+				BE28EE471EA073BD00E75860 /* strategy_4.jpg */,
+				BE28EE481EA073BD00E75860 /* strategy_5.jpg */,
+				BE28EE491EA073BD00E75860 /* strategy_6.jpg */,
+				BE28EE4A1EA073BD00E75860 /* strategy_7.jpg */,
+				BE28EE4B1EA073BD00E75860 /* strategy_8.jpg */,
+				BE28EE4C1EA073BD00E75860 /* strategy_9.jpg */,
+			);
+			path = strategy;
+			sourceTree = "<group>";
+		};
+		BE28EE5E1EA07DCD00E75860 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BE28EE621EA07E3A00E75860 /* HomeViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		BE28EE5F1EA07DD900E75860 /* Hot */ = {
+			isa = PBXGroup;
+			children = (
+				BE28EE671EA07ED800E75860 /* HotViewController.swift */,
+			);
+			name = Hot;
+			sourceTree = "<group>";
+		};
+		BE28EE601EA07DEE00E75860 /* Classify */ = {
+			isa = PBXGroup;
+			children = (
+				BE28EE691EA07EEA00E75860 /* ClassifyViewController.swift */,
+			);
+			name = Classify;
+			sourceTree = "<group>";
+		};
+		BE28EE611EA07DFF00E75860 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				BE28EE6C1EA07F0400E75860 /* MeViewController.swift */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		BE2B8F5C1F341A4900605BBD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BE2B8F691F345B7F00605BBD /* MaskCoverView.swift */,
+				BE2B8F5D1F341A6600605BBD /* Popover */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		BE2B8F5D1F341A6600605BBD /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				BE2B8F5E1F341AB200605BBD /* PopoverCategoryView.swift */,
+			);
+			name = Popover;
+			sourceTree = "<group>";
+		};
+		BE2B8F6F1F35BC0500605BBD /* StrategyFeed */ = {
+			isa = PBXGroup;
+			children = (
+				BE2B8F701F35BC4800605BBD /* BaseStrategyFeedController.swift */,
+				BE2B8F721F35C8F200605BBD /* BaseStrategyCell.swift */,
+				BE2B8F731F35C8F200605BBD /* BaseStrategyCell.xib */,
+			);
+			name = StrategyFeed;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE28EDDC1E9F53B600E75860 /* PresentTalkApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE28EE051E9F53B600E75860 /* Build configuration list for PBXNativeTarget "PresentTalkApp" */;
+			buildPhases = (
+				9FB20EEF4D0880AB5137475B /* [CP] Check Pods Manifest.lock */,
+				BE28EDD91E9F53B600E75860 /* Sources */,
+				BE28EDDA1E9F53B600E75860 /* Frameworks */,
+				BE28EDDB1E9F53B600E75860 /* Resources */,
+				B17F4D37E01623C679CF367F /* [CP] Embed Pods Frameworks */,
+				7D8B48286C734D458865A8AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PresentTalkApp;
+			productName = PresentTalkApp;
+			productReference = BE28EDDD1E9F53B600E75860 /* PresentTalkApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE28EDF01E9F53B600E75860 /* PresentTalkAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE28EE081E9F53B600E75860 /* Build configuration list for PBXNativeTarget "PresentTalkAppTests" */;
+			buildPhases = (
+				BE28EDED1E9F53B600E75860 /* Sources */,
+				BE28EDEE1E9F53B600E75860 /* Frameworks */,
+				BE28EDEF1E9F53B600E75860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE28EDF31E9F53B600E75860 /* PBXTargetDependency */,
+			);
+			name = PresentTalkAppTests;
+			productName = PresentTalkAppTests;
+			productReference = BE28EDF11E9F53B600E75860 /* PresentTalkAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE28EDFB1E9F53B600E75860 /* PresentTalkAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE28EE0B1E9F53B600E75860 /* Build configuration list for PBXNativeTarget "PresentTalkAppUITests" */;
+			buildPhases = (
+				BE28EDF81E9F53B600E75860 /* Sources */,
+				BE28EDF91E9F53B600E75860 /* Frameworks */,
+				BE28EDFA1E9F53B600E75860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE28EDFE1E9F53B600E75860 /* PBXTargetDependency */,
+			);
+			name = PresentTalkAppUITests;
+			productName = PresentTalkAppUITests;
+			productReference = BE28EDFC1E9F53B600E75860 /* PresentTalkAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE28EDD51E9F53B600E75860 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = PingAnXL;
+				TargetAttributes = {
+					BE28EDDC1E9F53B600E75860 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
+					};
+					BE28EDF01E9F53B600E75860 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE28EDDC1E9F53B600E75860;
+					};
+					BE28EDFB1E9F53B600E75860 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE28EDDC1E9F53B600E75860;
+					};
+				};
+			};
+			buildConfigurationList = BE28EDD81E9F53B600E75860 /* Build configuration list for PBXProject "PresentTalkApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE28EDD41E9F53B600E75860;
+			productRefGroup = BE28EDDE1E9F53B600E75860 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE28EDDC1E9F53B600E75860 /* PresentTalkApp */,
+				BE28EDF01E9F53B600E75860 /* PresentTalkAppTests */,
+				BE28EDFB1E9F53B600E75860 /* PresentTalkAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE28EDDB1E9F53B600E75860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE28EE581EA073BD00E75860 /* strategy_4.jpg in Resources */,
+				BE28EE321EA073AF00E75860 /* goods_10.jpg in Resources */,
+				BE28EE561EA073BD00E75860 /* strategy_2.jpg in Resources */,
+				BE28EE391EA073AF00E75860 /* goods_8.jpg in Resources */,
+				BE28EE591EA073BD00E75860 /* strategy_5.jpg in Resources */,
+				BE28EE5A1EA073BD00E75860 /* strategy_6.jpg in Resources */,
+				BE28EE4F1EA073BD00E75860 /* strategy_11.jpg in Resources */,
+				BE28EE541EA073BD00E75860 /* strategy_16.jpg in Resources */,
+				BE28EE5D1EA073BD00E75860 /* strategy_9.jpg in Resources */,
+				BE28EE5B1EA073BD00E75860 /* strategy_7.jpg in Resources */,
+				BE28EE351EA073AF00E75860 /* goods_4.jpg in Resources */,
+				BE28EE511EA073BD00E75860 /* strategy_13.jpg in Resources */,
+				BE28EE361EA073AF00E75860 /* goods_5.jpg in Resources */,
+				BE28EE571EA073BD00E75860 /* strategy_3.jpg in Resources */,
+				BE28EE371EA073AF00E75860 /* goods_6.jpg in Resources */,
+				BE28EE521EA073BD00E75860 /* strategy_14.jpg in Resources */,
+				BE28EE381EA073AF00E75860 /* goods_7.jpg in Resources */,
+				BE28EE501EA073BD00E75860 /* strategy_12.jpg in Resources */,
+				BE28EE531EA073BD00E75860 /* strategy_15.jpg in Resources */,
+				BE28EE551EA073BD00E75860 /* strategy_17.jpg in Resources */,
+				BE28EE4E1EA073BD00E75860 /* strategy_10.jpg in Resources */,
+				BE28EE341EA073AF00E75860 /* goods_3.jpg in Resources */,
+				BE28EE311EA073AF00E75860 /* goods_1.jpg in Resources */,
+				BE28EE4D1EA073BD00E75860 /* strategy_1.jpg in Resources */,
+				BE28EDE81E9F53B600E75860 /* Assets.xcassets in Resources */,
+				BE28EE3A1EA073AF00E75860 /* goods_9.jpg in Resources */,
+				BE2B8F751F35C8F200605BBD /* BaseStrategyCell.xib in Resources */,
+				BE28EE5C1EA073BD00E75860 /* strategy_8.jpg in Resources */,
+				BE28EE331EA073AF00E75860 /* goods_2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE28EDEF1E9F53B600E75860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE28EDFA1E9F53B600E75860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D8B48286C734D458865A8AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PresentTalkApp/Pods-PresentTalkApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FB20EEF4D0880AB5137475B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B17F4D37E01623C679CF367F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PresentTalkApp/Pods-PresentTalkApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE28EDD91E9F53B600E75860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE2B8F5F1F341AB200605BBD /* PopoverCategoryView.swift in Sources */,
+				BE2B8F741F35C8F200605BBD /* BaseStrategyCell.swift in Sources */,
+				BE28EE171E9F6ACC00E75860 /* NavigationViewController.swift in Sources */,
+				BE28EE6D1EA07F0400E75860 /* MeViewController.swift in Sources */,
+				BE28EE131E9F652900E75860 /* TabBarViewController.swift in Sources */,
+				BE28EE6A1EA07EEA00E75860 /* ClassifyViewController.swift in Sources */,
+				BE28EE211E9F832300E75860 /* UIImage+Extension.swift in Sources */,
+				BE2B8F6A1F345B7F00605BBD /* MaskCoverView.swift in Sources */,
+				BE28EE681EA07ED800E75860 /* HotViewController.swift in Sources */,
+				BE28EE151E9F6A1A00E75860 /* Common.swift in Sources */,
+				BE28EDE11E9F53B600E75860 /* AppDelegate.swift in Sources */,
+				BE28EE661EA07E9A00E75860 /* BaseViewController.swift in Sources */,
+				BE28EE631EA07E3A00E75860 /* HomeViewController.swift in Sources */,
+				BE2B8F711F35BC4800605BBD /* BaseStrategyFeedController.swift in Sources */,
+				BE28EE251EA06EEF00E75860 /* UIButton+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE28EDED1E9F53B600E75860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE28EDF61E9F53B600E75860 /* PresentTalkAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE28EDF81E9F53B600E75860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE28EE011E9F53B600E75860 /* PresentTalkAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE28EDF31E9F53B600E75860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE28EDDC1E9F53B600E75860 /* PresentTalkApp */;
+			targetProxy = BE28EDF21E9F53B600E75860 /* PBXContainerItemProxy */;
+		};
+		BE28EDFE1E9F53B600E75860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE28EDDC1E9F53B600E75860 /* PresentTalkApp */;
+			targetProxy = BE28EDFD1E9F53B600E75860 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BE28EE031E9F53B600E75860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE28EE041E9F53B600E75860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE28EE061E9F53B600E75860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B718026C931DB143FA216417 /* Pods-PresentTalkApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PresentTalkApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yxl.PresentTalkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BE28EE071E9F53B600E75860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5CBA45C833981546F3B8102 /* Pods-PresentTalkApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PresentTalkApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yxl.PresentTalkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BE28EE091E9F53B600E75860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PresentTalkAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yxl.PresentTalkAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PresentTalkApp.app/PresentTalkApp";
+			};
+			name = Debug;
+		};
+		BE28EE0A1E9F53B600E75860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PresentTalkAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yxl.PresentTalkAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PresentTalkApp.app/PresentTalkApp";
+			};
+			name = Release;
+		};
+		BE28EE0C1E9F53B600E75860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PresentTalkAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yxl.PresentTalkAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PresentTalkApp;
+			};
+			name = Debug;
+		};
+		BE28EE0D1E9F53B600E75860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PresentTalkAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yxl.PresentTalkAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PresentTalkApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE28EDD81E9F53B600E75860 /* Build configuration list for PBXProject "PresentTalkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE28EE031E9F53B600E75860 /* Debug */,
+				BE28EE041E9F53B600E75860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE28EE051E9F53B600E75860 /* Build configuration list for PBXNativeTarget "PresentTalkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE28EE061E9F53B600E75860 /* Debug */,
+				BE28EE071E9F53B600E75860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE28EE081E9F53B600E75860 /* Build configuration list for PBXNativeTarget "PresentTalkAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE28EE091E9F53B600E75860 /* Debug */,
+				BE28EE0A1E9F53B600E75860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE28EE0B1E9F53B600E75860 /* Build configuration list for PBXNativeTarget "PresentTalkAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE28EE0C1E9F53B600E75860 /* Debug */,
+				BE28EE0D1E9F53B600E75860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE28EDD51E9F53B600E75860 /* Project object */;
+}
