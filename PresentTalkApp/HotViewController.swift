@@ -8,7 +8,11 @@
 
 import UIKit
 
-class HotViewController: BaseViewController {
+import MJRefresh
+
+class HotViewController: BaseGoodsFeedViewController {
+    
+    fileprivate var refreshControl: UIRefreshControl?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,20 +23,39 @@ class HotViewController: BaseViewController {
         
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    fileprivate func setUpUI() {
+    
+//      view.backgroundColor = Color_GlobalBackground
+//        navigationItem.rightBarButtonItem = UIBarButtonItem(searchBtnAction: self,action: #selector(HomeViewController.searchBtnAction))
+//    
+//    
     }
     
+    fileprivate func setupRefresh() {
+//        let header = Refresh(refreshingTarget: self, refreshingAction: #selector(HotViewController.pullDownLoadData))
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        
+        
+        
+    
     }
-    */
+    
+    @objc fileprivate func pullDownLoadData() {
+    
+    
+    
+    
+    }
+    
+    @objc fileprivate func searchBtnAction() {
+    
+    
+    
+    }
+    
+    
+ 
 
+   
 }
