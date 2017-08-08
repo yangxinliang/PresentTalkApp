@@ -16,7 +16,8 @@ class HomeViewController: BaseViewController {
         return ["精选", "海淘", "创意生活", "送女票", "科技范", "送爸妈", "送基友", "送闺蜜", "送同事", "送宝贝", "设计感", "文艺范", "奇葩搞怪", "萌萌哒"]
     }
     
-    var cacheCategoryViews = UIView()
+    // 创建一个UIView 类型的可变数组
+    var cacheCategoryViews = [UIView]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,13 +33,26 @@ class HomeViewController: BaseViewController {
     // MARK: - 视图
     fileprivate func setupUI () {
         view.backgroundColor = Color_GlobalBackground
-//        navigationItem.leftBarButtonItem = UIBarButtonItem()
-        
         view.addSubview(scrollView)
         view.addSubview(popoverCategoryView)
         
+        for i in 0..<categoryTitles.count {
+            let categoryVC = i == 0 ? ChoiceStrategyViewController() : CommonStrategyViewController()
+            addChildViewController(categoryVC)
+            scrollView.addSubview(categoryVC.view)
+            cacheCategoryViews.append(categoryVC.view)
+     
+        }
 
     }
+    
+    fileprivate func setUpUIFrame(){
+//        popoverCategoryView.frame = CGRect(x: 0,y: )
+        
+
+    
+    }
+    
     
     
     // MARK: - 懒加载

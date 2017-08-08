@@ -22,6 +22,7 @@ class BaseStrategyFeedController: BaseViewController {
     
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
+        setUpUIFrame()
     }
     
     
@@ -36,7 +37,7 @@ class BaseStrategyFeedController: BaseViewController {
 
     
     fileprivate func setUpUIFrame() {
-    
+     tableView.frame = view.bounds
     
     }
     
@@ -50,6 +51,7 @@ class BaseStrategyFeedController: BaseViewController {
         tableView.separatorStyle = UITableViewCellSeparatorStyle.none
         tableView.sectionFooterHeight = 0.0001
         tableView.sectionHeaderHeight = 0.0001
+        tableView.register(UINib(nibName: "BaseStrategyCell", bundle: Bundle.main), forCellReuseIdentifier: cellReuseIdentifiler)
         return tableView;
     }()
     
@@ -69,6 +71,10 @@ extension BaseStrategyFeedController:UITableViewDataSource,UITableViewDelegate {
         let cell =  tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifiler, for: indexPath)
     
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 260
     }
     
 }
