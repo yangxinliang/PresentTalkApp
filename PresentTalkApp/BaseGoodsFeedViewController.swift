@@ -24,25 +24,22 @@ class BaseGoodsFeedViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setUpUI()
     }
     
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-        
+        setUpUIFrame()
     }
     
     // 构建UI
     fileprivate func setUpUI() {
-        
-        
-        
+        view.addSubview(collection)
     }
     
     // 设置frame
     fileprivate func setUpUIFrame() {
-        
-        
+        collection.frame = view.bounds
         
     }
     
@@ -54,9 +51,7 @@ class BaseGoodsFeedViewController: BaseViewController {
         collectionView.backgroundColor = Color_GlobalBackground
         collectionView.showsVerticalScrollIndicator = false
         collectionView.showsHorizontalScrollIndicator = false
-        
-        
-        
+        collectionView.register(UINib(nibName: "BaseGoodsCell",bundle: nil), forCellWithReuseIdentifier: cellReuseIdentifir)
         
         return collectionView
     }()

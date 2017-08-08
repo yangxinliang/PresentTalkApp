@@ -25,7 +25,7 @@ class Refresh: MJRefreshGifHeader {
         
         pullingImages.append(UIImage(named: "loading_00")!.resetImageSize(100))
         for i in 0...22 {
-            refreshingImages.append(UIImage(named: String(format: "lloading_%02d",i))!.resetImageSize(100))
+            refreshingImages.append(UIImage(named: String(format: "loading_%02d",i))!.resetImageSize(100))
         }
         
         lastUpdatedTimeLabel.isHighlighted = true
