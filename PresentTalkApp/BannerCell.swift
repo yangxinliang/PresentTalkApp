@@ -20,3 +20,15 @@ class BannerCell: UICollectionViewCell {
     }
 
 }
+
+class BannerFlowLayout: UICollectionViewFlowLayout {
+    
+    override func prepare() {
+        
+        super.prepare()
+        minimumLineSpacing = 0
+        minimumInteritemSpacing = 0
+        scrollDirection = UICollectionViewScrollDirection.horizontal
+        
+    }
+}

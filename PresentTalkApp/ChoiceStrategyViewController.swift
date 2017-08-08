@@ -37,8 +37,7 @@ class ChoiceStrategyViewController: BaseStrategyFeedController {
         // 设置完高度需要重现赋值，否则高度可能不准确
         tableView.tableHeaderView = headerView;
         
-        
-    
+     
     }
     
     // mark: -- 赖加载

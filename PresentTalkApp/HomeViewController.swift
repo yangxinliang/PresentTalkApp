@@ -27,7 +27,7 @@ class HomeViewController: BaseViewController {
     }
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-        
+        setUpUIFrame()
     }
     
     // MARK: - 视图
@@ -47,9 +47,15 @@ class HomeViewController: BaseViewController {
     }
     
     fileprivate func setUpUIFrame(){
-//        popoverCategoryView.frame = CGRect(x: 0,y: )
+        popoverCategoryView.frame = CGRect(x: 0,y: 0,width: view.bounds.width, height: 44.0)
+        scrollView.frame = CGRect(x: 0,y: popoverCategoryView.frame.maxY, width: view.bounds.width, height: view.bounds.height - popoverCategoryView.bounds.height - 44.0)
+        for i in 0..<cacheCategoryViews.count {
+            let view = cacheCategoryViews[i]
+            view.frame = CGRect(x: scrollView.bounds.width * CGFloat(i), y: 0,width: scrollView.bounds.width, height: scrollView.bounds.height)
+            
+        }
+        scrollView.contentSize = CGSize(width: CGFloat(cacheCategoryViews.count) * scrollView.bounds.width, height: 0)
         
-
     
     }
     

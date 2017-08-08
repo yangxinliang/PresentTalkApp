@@ -26,7 +26,7 @@ class BannerCollectionView: UICollectionView {
     override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
          super.init(frame: frame, collectionViewLayout: layout)
         
-        
+        setUpUI()
         
         
     }
@@ -48,14 +48,10 @@ class BannerCollectionView: UICollectionView {
         delegate = self
         dataSource = self
         register(UINib(nibName:"BannerCell",bundle: nil), forCellWithReuseIdentifier: cellResuseIndentifier)
-        
-    
-        
+        addSubview(pageControl)
     
     }
-    
-    
-    
+
     // MARK: - 赖加载
     fileprivate lazy var pageControl: UIPageControl = {
         let pageControl = UIPageControl()
@@ -116,17 +112,7 @@ extension BannerCollectionView: UIScrollViewDelegate {
 }
 
 
-class BannerFlowLayout: UICollectionViewFlowLayout {
-    
-    override func prepare() {
-        
-        super.prepare()
-        minimumLineSpacing = 0
-        minimumInteritemSpacing = 0
-        scrollDirection = UICollectionViewScrollDirection.horizontal
-        
-    }
-}
+
 
 
 
