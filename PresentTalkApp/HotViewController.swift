@@ -19,7 +19,8 @@ class HotViewController: BaseGoodsFeedViewController {
 
          title = "热门"
         
-        
+        setUpUI()
+        setupRefresh()
         
     }
 
@@ -33,16 +34,15 @@ class HotViewController: BaseGoodsFeedViewController {
     }
     
     fileprivate func setupRefresh() {
-//        let header = Refresh(refreshingTarget: self, refreshingAction: #selector(HotViewController.pullDownLoadData))
-
-        
-        
-        
-    
+        let header = Refresh(refreshingTarget: self, refreshingAction: #selector(HotViewController.pullDownLoadData))
+        collection.mj_header = header
     }
     
     @objc fileprivate func pullDownLoadData() {
-    
+    let delayTime = DispatchTime.now() + Double(Int64(2 * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC)
+        DispatchQueue.main.asyncAfter(deadline: delayTime) { 
+            self.collection.mj_header.endRefreshing()
+        }
     
     
     
