@@ -35,6 +35,7 @@ class BaseGoodsFeedViewController: BaseViewController {
     // 构建UI
     fileprivate func setUpUI() {
         
+    view.addSubview(collection)
         
         
     }
@@ -54,9 +55,6 @@ class BaseGoodsFeedViewController: BaseViewController {
         collectionView.backgroundColor = Color_GlobalBackground
         collectionView.showsVerticalScrollIndicator = false
         collectionView.showsHorizontalScrollIndicator = false
-        
-        
-        
         
         return collectionView
     }()
