@@ -11,6 +11,7 @@
 		6AE861551F39FEB400D56AD0 /* BaseGoodsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE861531F39FEB400D56AD0 /* BaseGoodsCell.swift */; };
 		6AE861561F39FEB400D56AD0 /* BaseGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AE861541F39FEB400D56AD0 /* BaseGoodsCell.xib */; };
 		6AE861581F3A02AC00D56AD0 /* BaseGoodCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE861571F3A02AC00D56AD0 /* BaseGoodCellModel.swift */; };
+		BE2556C61F3BEF4A00BFF207 /* ClassifyTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2556C51F3BEF4A00BFF207 /* ClassifyTitleView.swift */; };
 		BE28EDE11E9F53B600E75860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28EDE01E9F53B600E75860 /* AppDelegate.swift */; };
 		BE28EDE81E9F53B600E75860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE28EDE71E9F53B600E75860 /* Assets.xcassets */; };
 		BE28EDF61E9F53B600E75860 /* PresentTalkAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE28EDF51E9F53B600E75860 /* PresentTalkAppTests.swift */; };
@@ -93,6 +94,7 @@
 		99A816069D94B04DFC9E2CFD /* Pods_PresentTalkApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PresentTalkApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CBA45C833981546F3B8102 /* Pods-PresentTalkApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresentTalkApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PresentTalkApp/Pods-PresentTalkApp.release.xcconfig"; sourceTree = "<group>"; };
 		B718026C931DB143FA216417 /* Pods-PresentTalkApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresentTalkApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PresentTalkApp/Pods-PresentTalkApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BE2556C51F3BEF4A00BFF207 /* ClassifyTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifyTitleView.swift; sourceTree = "<group>"; };
 		BE28EDDD1E9F53B600E75860 /* PresentTalkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresentTalkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE28EDE01E9F53B600E75860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE28EDE71E9F53B600E75860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -199,6 +201,14 @@
 				A5CBA45C833981546F3B8102 /* Pods-PresentTalkApp.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE2556C41F3BEF1900BFF207 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE2556C51F3BEF4A00BFF207 /* ClassifyTitleView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 		BE28EDD41E9F53B600E75860 = {
@@ -373,6 +383,7 @@
 			isa = PBXGroup;
 			children = (
 				BE28EE691EA07EEA00E75860 /* ClassifyViewController.swift */,
+				BE2556C41F3BEF1900BFF207 /* View */,
 			);
 			name = Classify;
 			sourceTree = "<group>";
@@ -675,6 +686,7 @@
 				BE2B8F941F3866FB00605BBD /* TopicCollectionView.swift in Sources */,
 				BE28EE251EA06EEF00E75860 /* UIButton+Extension.swift in Sources */,
 				BE2B8F911F3863F600605BBD /* BannerCell.swift in Sources */,
+				BE2556C61F3BEF4A00BFF207 /* ClassifyTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
