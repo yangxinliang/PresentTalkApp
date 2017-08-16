@@ -68,6 +68,14 @@
 		BE2B8F9C1F38745100605BBD /* ChoiceStrategyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2B8F9B1F38745100605BBD /* ChoiceStrategyViewController.swift */; };
 		BE2B8FA01F395E5A00605BBD /* Refresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2B8F9F1F395E5A00605BBD /* Refresh.swift */; };
 		BE2B8FA21F3963E600605BBD /* BaseGoodsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2B8FA11F3963E600605BBD /* BaseGoodsFeedViewController.swift */; };
+		BE85A8E71F4421F200A3AA69 /* StrategyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85A8E61F4421F200A3AA69 /* StrategyViewController.swift */; };
+		BE85A8EB1F44336100A3AA69 /* StrategySectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85A8EA1F44336100A3AA69 /* StrategySectionView.xib */; };
+		BE85A8EE1F443BB900A3AA69 /* StrategyCategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85A8EC1F443BB900A3AA69 /* StrategyCategoryCell.swift */; };
+		BE85A8EF1F443BB900A3AA69 /* StrategyCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85A8ED1F443BB900A3AA69 /* StrategyCategoryCell.xib */; };
+		BE85A8F21F44408300A3AA69 /* StrategyColumnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85A8F01F44408300A3AA69 /* StrategyColumnCell.swift */; };
+		BE85A8F31F44408300A3AA69 /* StrategyColumnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85A8F11F44408300A3AA69 /* StrategyColumnCell.xib */; };
+		BE85A8F61F4443BE00A3AA69 /* StrategyColumnCellCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85A8F41F4443BE00A3AA69 /* StrategyColumnCellCell.swift */; };
+		BE85A8F71F4443BE00A3AA69 /* StrategyColumnCellCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85A8F51F4443BE00A3AA69 /* StrategyColumnCellCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,6 +166,14 @@
 		BE2B8F9D1F395A7E00605BBD /* OCBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCBridgingHeader.h; sourceTree = "<group>"; };
 		BE2B8F9F1F395E5A00605BBD /* Refresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Refresh.swift; sourceTree = "<group>"; };
 		BE2B8FA11F3963E600605BBD /* BaseGoodsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseGoodsFeedViewController.swift; sourceTree = "<group>"; };
+		BE85A8E61F4421F200A3AA69 /* StrategyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyViewController.swift; sourceTree = "<group>"; };
+		BE85A8EA1F44336100A3AA69 /* StrategySectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StrategySectionView.xib; sourceTree = "<group>"; };
+		BE85A8EC1F443BB900A3AA69 /* StrategyCategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyCategoryCell.swift; sourceTree = "<group>"; };
+		BE85A8ED1F443BB900A3AA69 /* StrategyCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StrategyCategoryCell.xib; sourceTree = "<group>"; };
+		BE85A8F01F44408300A3AA69 /* StrategyColumnCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyColumnCell.swift; sourceTree = "<group>"; };
+		BE85A8F11F44408300A3AA69 /* StrategyColumnCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StrategyColumnCell.xib; sourceTree = "<group>"; };
+		BE85A8F41F4443BE00A3AA69 /* StrategyColumnCellCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyColumnCellCell.swift; sourceTree = "<group>"; };
+		BE85A8F51F4443BE00A3AA69 /* StrategyColumnCellCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StrategyColumnCellCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +223,13 @@
 			isa = PBXGroup;
 			children = (
 				BE2556C51F3BEF4A00BFF207 /* ClassifyTitleView.swift */,
+				BE85A8EA1F44336100A3AA69 /* StrategySectionView.xib */,
+				BE85A8EC1F443BB900A3AA69 /* StrategyCategoryCell.swift */,
+				BE85A8ED1F443BB900A3AA69 /* StrategyCategoryCell.xib */,
+				BE85A8F01F44408300A3AA69 /* StrategyColumnCell.swift */,
+				BE85A8F11F44408300A3AA69 /* StrategyColumnCell.xib */,
+				BE85A8F41F4443BE00A3AA69 /* StrategyColumnCellCell.swift */,
+				BE85A8F51F4443BE00A3AA69 /* StrategyColumnCellCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -383,6 +406,7 @@
 			isa = PBXGroup;
 			children = (
 				BE28EE691EA07EEA00E75860 /* ClassifyViewController.swift */,
+				BE85A8E61F4421F200A3AA69 /* StrategyViewController.swift */,
 				BE2556C41F3BEF1900BFF207 /* View */,
 			);
 			name = Classify;
@@ -561,10 +585,12 @@
 				BE28EE321EA073AF00E75860 /* goods_10.jpg in Resources */,
 				BE28EE561EA073BD00E75860 /* strategy_2.jpg in Resources */,
 				BE28EE391EA073AF00E75860 /* goods_8.jpg in Resources */,
+				BE85A8F71F4443BE00A3AA69 /* StrategyColumnCellCell.xib in Resources */,
 				BE28EE591EA073BD00E75860 /* strategy_5.jpg in Resources */,
 				BE28EE5A1EA073BD00E75860 /* strategy_6.jpg in Resources */,
 				BE28EE4F1EA073BD00E75860 /* strategy_11.jpg in Resources */,
 				BE28EE541EA073BD00E75860 /* strategy_16.jpg in Resources */,
+				BE85A8EB1F44336100A3AA69 /* StrategySectionView.xib in Resources */,
 				BE28EE5D1EA073BD00E75860 /* strategy_9.jpg in Resources */,
 				BE28EE5B1EA073BD00E75860 /* strategy_7.jpg in Resources */,
 				BE28EE351EA073AF00E75860 /* goods_4.jpg in Resources */,
@@ -572,10 +598,12 @@
 				BE2B8F9A1F3870A700605BBD /* TopicCell.xib in Resources */,
 				BE28EE361EA073AF00E75860 /* goods_5.jpg in Resources */,
 				BE28EE571EA073BD00E75860 /* strategy_3.jpg in Resources */,
+				BE85A8F31F44408300A3AA69 /* StrategyColumnCell.xib in Resources */,
 				BE28EE371EA073AF00E75860 /* goods_6.jpg in Resources */,
 				BE28EE521EA073BD00E75860 /* strategy_14.jpg in Resources */,
 				BE28EE381EA073AF00E75860 /* goods_7.jpg in Resources */,
 				BE28EE501EA073BD00E75860 /* strategy_12.jpg in Resources */,
+				BE85A8EF1F443BB900A3AA69 /* StrategyCategoryCell.xib in Resources */,
 				BE28EE531EA073BD00E75860 /* strategy_15.jpg in Resources */,
 				BE2B8F921F3863F600605BBD /* BannerCell.xib in Resources */,
 				BE28EE551EA073BD00E75860 /* strategy_17.jpg in Resources */,
@@ -663,11 +691,13 @@
 			files = (
 				BE2B8F5F1F341AB200605BBD /* PopoverCategoryView.swift in Sources */,
 				BE2B8F741F35C8F200605BBD /* BaseStrategyCell.swift in Sources */,
+				BE85A8F21F44408300A3AA69 /* StrategyColumnCell.swift in Sources */,
 				BE2B8F8C1F3856EA00605BBD /* BannerCollectionView.swift in Sources */,
 				BE2B8FA01F395E5A00605BBD /* Refresh.swift in Sources */,
 				BE28EE171E9F6ACC00E75860 /* NavigationViewController.swift in Sources */,
 				BE28EE6D1EA07F0400E75860 /* MeViewController.swift in Sources */,
 				BE28EE131E9F652900E75860 /* TabBarViewController.swift in Sources */,
+				BE85A8F61F4443BE00A3AA69 /* StrategyColumnCellCell.swift in Sources */,
 				BE28EE6A1EA07EEA00E75860 /* ClassifyViewController.swift in Sources */,
 				BE28EE211E9F832300E75860 /* UIImage+Extension.swift in Sources */,
 				BE2B8F6A1F345B7F00605BBD /* MaskCoverView.swift in Sources */,
@@ -680,8 +710,10 @@
 				BE2B8F8E1F385F2700605BBD /* CommonStrategyViewController.swift in Sources */,
 				BE28EE631EA07E3A00E75860 /* HomeViewController.swift in Sources */,
 				BE2B8F9C1F38745100605BBD /* ChoiceStrategyViewController.swift in Sources */,
+				BE85A8E71F4421F200A3AA69 /* StrategyViewController.swift in Sources */,
 				BE2B8F711F35BC4800605BBD /* BaseStrategyFeedController.swift in Sources */,
 				BE2B8FA21F3963E600605BBD /* BaseGoodsFeedViewController.swift in Sources */,
+				BE85A8EE1F443BB900A3AA69 /* StrategyCategoryCell.swift in Sources */,
 				6AE861581F3A02AC00D56AD0 /* BaseGoodCellModel.swift in Sources */,
 				BE2B8F941F3866FB00605BBD /* TopicCollectionView.swift in Sources */,
 				BE28EE251EA06EEF00E75860 /* UIButton+Extension.swift in Sources */,
