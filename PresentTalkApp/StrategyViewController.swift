@@ -150,7 +150,6 @@ class StrategySectionView: UICollectionReusableView {
 
 
 
-
 // 其他的类
 class StrategyCollectionFlowLayout: UICollectionViewFlowLayout {
     

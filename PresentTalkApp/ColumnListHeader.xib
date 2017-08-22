@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ColumnListHeader" customModule="PresentTalkApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="guide" translatesAutoresizingMaskIntoConstraints="NO" id="Ghm-En-46v">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="cbZ-JC-4BD"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="简介" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w8i-YN-Awx">
+                    <rect key="frame" x="10" y="155" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="DYr-QS-UwD"/>
+                        <constraint firstAttribute="width" constant="42" id="EYA-hX-9ze"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PaY-iQ-iqW">
+                    <rect key="frame" x="10" y="186" width="300" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="bBp-o6-8WG"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="做你的私人搭配师，每日搭配治好你的选择困难症，满足你多睡5分钟的小小心愿" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jf8-yj-eo8">
+                    <rect key="frame" x="0.0" y="192" width="320" height="53"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Jf8-yj-eo8" secondAttribute="trailing" id="3wM-bc-Sn0"/>
+                <constraint firstAttribute="bottom" secondItem="Jf8-yj-eo8" secondAttribute="bottom" constant="5" id="6Hd-6h-by6"/>
+                <constraint firstAttribute="trailing" secondItem="PaY-iQ-iqW" secondAttribute="trailing" constant="10" id="9gz-D3-kfS"/>
+                <constraint firstItem="Jf8-yj-eo8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Aa7-Nx-Yt3"/>
+                <constraint firstItem="w8i-YN-Awx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Dxn-qU-d50"/>
+                <constraint firstItem="PaY-iQ-iqW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="Hs8-e2-mOt"/>
+                <constraint firstItem="Ghm-En-46v" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Wcy-CA-Mqs"/>
+                <constraint firstItem="Jf8-yj-eo8" firstAttribute="top" secondItem="PaY-iQ-iqW" secondAttribute="bottom" constant="5" id="ahb-eN-ywa"/>
+                <constraint firstAttribute="trailing" secondItem="Ghm-En-46v" secondAttribute="trailing" id="h93-qf-eHG"/>
+                <constraint firstItem="w8i-YN-Awx" firstAttribute="top" secondItem="Ghm-En-46v" secondAttribute="bottom" constant="5" id="hfJ-cu-FDN"/>
+                <constraint firstItem="PaY-iQ-iqW" firstAttribute="top" secondItem="w8i-YN-Awx" secondAttribute="bottom" constant="10" id="tbO-2h-oaj"/>
+                <constraint firstItem="Ghm-En-46v" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="xKG-lb-5vI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="photoImageView" destination="Ghm-En-46v" id="fBw-nO-F3t"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="guide" width="744" height="316"/>
+    </resources>
+</document>

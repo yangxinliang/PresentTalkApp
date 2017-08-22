@@ -76,6 +76,20 @@
 		BE85A8F31F44408300A3AA69 /* StrategyColumnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85A8F11F44408300A3AA69 /* StrategyColumnCell.xib */; };
 		BE85A8F61F4443BE00A3AA69 /* StrategyColumnCellCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85A8F41F4443BE00A3AA69 /* StrategyColumnCellCell.swift */; };
 		BE85A8F71F4443BE00A3AA69 /* StrategyColumnCellCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85A8F51F4443BE00A3AA69 /* StrategyColumnCellCell.xib */; };
+		BE85AA7B1F4C08A300A3AA69 /* SingleGifCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA791F4C08A300A3AA69 /* SingleGifCell.swift */; };
+		BE85AA7C1F4C08A300A3AA69 /* SingleGifCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85AA7A1F4C08A300A3AA69 /* SingleGifCell.xib */; };
+		BE85AA7F1F4C0BD000A3AA69 /* SingleGifColumnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA7D1F4C0BD000A3AA69 /* SingleGifColumnCell.swift */; };
+		BE85AA801F4C0BD000A3AA69 /* SingleGifColumnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85AA7E1F4C0BD000A3AA69 /* SingleGifColumnCell.xib */; };
+		BE85AA831F4C0EDD00A3AA69 /* ColumnListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA811F4C0EDD00A3AA69 /* ColumnListCell.swift */; };
+		BE85AA841F4C0EDD00A3AA69 /* ColumnListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85AA821F4C0EDD00A3AA69 /* ColumnListCell.xib */; };
+		BE85AA861F4C14C600A3AA69 /* ColumnListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA851F4C14C600A3AA69 /* ColumnListHeader.swift */; };
+		BE85AA881F4C14FF00A3AA69 /* ColumnListHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85AA871F4C14FF00A3AA69 /* ColumnListHeader.xib */; };
+		BE85AA8A1F4C1A0100A3AA69 /* SingleGifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA891F4C1A0100A3AA69 /* SingleGifViewController.swift */; };
+		BE85AA8C1F4C1FDB00A3AA69 /* ColumnListSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85AA8B1F4C1FDB00A3AA69 /* ColumnListSectionView.xib */; };
+		BE85AA8E1F4C202600A3AA69 /* SingleGifSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85AA8D1F4C202600A3AA69 /* SingleGifSectionView.xib */; };
+		BE85AA901F4C275600A3AA69 /* CommonGoodsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA8F1F4C275600A3AA69 /* CommonGoodsFeedViewController.swift */; };
+		BE85AA921F4C2BE800A3AA69 /* AllColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA911F4C2BE800A3AA69 /* AllColumnViewController.swift */; };
+		BE85AA941F4C32F400A3AA69 /* AllClassifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA931F4C32F400A3AA69 /* AllClassifyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -174,6 +188,20 @@
 		BE85A8F11F44408300A3AA69 /* StrategyColumnCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StrategyColumnCell.xib; sourceTree = "<group>"; };
 		BE85A8F41F4443BE00A3AA69 /* StrategyColumnCellCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrategyColumnCellCell.swift; sourceTree = "<group>"; };
 		BE85A8F51F4443BE00A3AA69 /* StrategyColumnCellCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StrategyColumnCellCell.xib; sourceTree = "<group>"; };
+		BE85AA791F4C08A300A3AA69 /* SingleGifCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleGifCell.swift; sourceTree = "<group>"; };
+		BE85AA7A1F4C08A300A3AA69 /* SingleGifCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleGifCell.xib; sourceTree = "<group>"; };
+		BE85AA7D1F4C0BD000A3AA69 /* SingleGifColumnCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleGifColumnCell.swift; sourceTree = "<group>"; };
+		BE85AA7E1F4C0BD000A3AA69 /* SingleGifColumnCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleGifColumnCell.xib; sourceTree = "<group>"; };
+		BE85AA811F4C0EDD00A3AA69 /* ColumnListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnListCell.swift; sourceTree = "<group>"; };
+		BE85AA821F4C0EDD00A3AA69 /* ColumnListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColumnListCell.xib; sourceTree = "<group>"; };
+		BE85AA851F4C14C600A3AA69 /* ColumnListHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnListHeader.swift; sourceTree = "<group>"; };
+		BE85AA871F4C14FF00A3AA69 /* ColumnListHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColumnListHeader.xib; sourceTree = "<group>"; };
+		BE85AA891F4C1A0100A3AA69 /* SingleGifViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleGifViewController.swift; sourceTree = "<group>"; };
+		BE85AA8B1F4C1FDB00A3AA69 /* ColumnListSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColumnListSectionView.xib; sourceTree = "<group>"; };
+		BE85AA8D1F4C202600A3AA69 /* SingleGifSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleGifSectionView.xib; sourceTree = "<group>"; };
+		BE85AA8F1F4C275600A3AA69 /* CommonGoodsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonGoodsFeedViewController.swift; sourceTree = "<group>"; };
+		BE85AA911F4C2BE800A3AA69 /* AllColumnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllColumnViewController.swift; sourceTree = "<group>"; };
+		BE85AA931F4C32F400A3AA69 /* AllClassifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllClassifyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +258,16 @@
 				BE85A8F11F44408300A3AA69 /* StrategyColumnCell.xib */,
 				BE85A8F41F4443BE00A3AA69 /* StrategyColumnCellCell.swift */,
 				BE85A8F51F4443BE00A3AA69 /* StrategyColumnCellCell.xib */,
+				BE85AA791F4C08A300A3AA69 /* SingleGifCell.swift */,
+				BE85AA7A1F4C08A300A3AA69 /* SingleGifCell.xib */,
+				BE85AA8D1F4C202600A3AA69 /* SingleGifSectionView.xib */,
+				BE85AA7D1F4C0BD000A3AA69 /* SingleGifColumnCell.swift */,
+				BE85AA7E1F4C0BD000A3AA69 /* SingleGifColumnCell.xib */,
+				BE85AA811F4C0EDD00A3AA69 /* ColumnListCell.swift */,
+				BE85AA821F4C0EDD00A3AA69 /* ColumnListCell.xib */,
+				BE85AA851F4C14C600A3AA69 /* ColumnListHeader.swift */,
+				BE85AA871F4C14FF00A3AA69 /* ColumnListHeader.xib */,
+				BE85AA8B1F4C1FDB00A3AA69 /* ColumnListSectionView.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -407,6 +445,9 @@
 			children = (
 				BE28EE691EA07EEA00E75860 /* ClassifyViewController.swift */,
 				BE85A8E61F4421F200A3AA69 /* StrategyViewController.swift */,
+				BE85AA891F4C1A0100A3AA69 /* SingleGifViewController.swift */,
+				BE85AA911F4C2BE800A3AA69 /* AllColumnViewController.swift */,
+				BE85AA931F4C32F400A3AA69 /* AllClassifyViewController.swift */,
 				BE2556C41F3BEF1900BFF207 /* View */,
 			);
 			name = Classify;
@@ -423,6 +464,7 @@
 		BE2B8F5C1F341A4900605BBD /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BE85AA8F1F4C275600A3AA69 /* CommonGoodsFeedViewController.swift */,
 				BE2B8F9E1F395E2800605BBD /* Refresh */,
 				BE2B8F691F345B7F00605BBD /* MaskCoverView.swift */,
 				BE2B8F8D1F385F2700605BBD /* CommonStrategyViewController.swift */,
@@ -581,7 +623,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE85AA881F4C14FF00A3AA69 /* ColumnListHeader.xib in Resources */,
 				BE28EE581EA073BD00E75860 /* strategy_4.jpg in Resources */,
+				BE85AA7C1F4C08A300A3AA69 /* SingleGifCell.xib in Resources */,
 				BE28EE321EA073AF00E75860 /* goods_10.jpg in Resources */,
 				BE28EE561EA073BD00E75860 /* strategy_2.jpg in Resources */,
 				BE28EE391EA073AF00E75860 /* goods_8.jpg in Resources */,
@@ -590,6 +634,7 @@
 				BE28EE5A1EA073BD00E75860 /* strategy_6.jpg in Resources */,
 				BE28EE4F1EA073BD00E75860 /* strategy_11.jpg in Resources */,
 				BE28EE541EA073BD00E75860 /* strategy_16.jpg in Resources */,
+				BE85AA8E1F4C202600A3AA69 /* SingleGifSectionView.xib in Resources */,
 				BE85A8EB1F44336100A3AA69 /* StrategySectionView.xib in Resources */,
 				BE28EE5D1EA073BD00E75860 /* strategy_9.jpg in Resources */,
 				BE28EE5B1EA073BD00E75860 /* strategy_7.jpg in Resources */,
@@ -605,12 +650,15 @@
 				BE28EE501EA073BD00E75860 /* strategy_12.jpg in Resources */,
 				BE85A8EF1F443BB900A3AA69 /* StrategyCategoryCell.xib in Resources */,
 				BE28EE531EA073BD00E75860 /* strategy_15.jpg in Resources */,
+				BE85AA841F4C0EDD00A3AA69 /* ColumnListCell.xib in Resources */,
 				BE2B8F921F3863F600605BBD /* BannerCell.xib in Resources */,
 				BE28EE551EA073BD00E75860 /* strategy_17.jpg in Resources */,
 				BE28EE4E1EA073BD00E75860 /* strategy_10.jpg in Resources */,
+				BE85AA801F4C0BD000A3AA69 /* SingleGifColumnCell.xib in Resources */,
 				BE28EE341EA073AF00E75860 /* goods_3.jpg in Resources */,
 				BE28EE311EA073AF00E75860 /* goods_1.jpg in Resources */,
 				6AE861561F39FEB400D56AD0 /* BaseGoodsCell.xib in Resources */,
+				BE85AA8C1F4C1FDB00A3AA69 /* ColumnListSectionView.xib in Resources */,
 				BE28EE4D1EA073BD00E75860 /* strategy_1.jpg in Resources */,
 				BE28EDE81E9F53B600E75860 /* Assets.xcassets in Resources */,
 				BE28EE3A1EA073AF00E75860 /* goods_9.jpg in Resources */,
@@ -695,13 +743,17 @@
 				BE2B8F8C1F3856EA00605BBD /* BannerCollectionView.swift in Sources */,
 				BE2B8FA01F395E5A00605BBD /* Refresh.swift in Sources */,
 				BE28EE171E9F6ACC00E75860 /* NavigationViewController.swift in Sources */,
+				BE85AA831F4C0EDD00A3AA69 /* ColumnListCell.swift in Sources */,
 				BE28EE6D1EA07F0400E75860 /* MeViewController.swift in Sources */,
 				BE28EE131E9F652900E75860 /* TabBarViewController.swift in Sources */,
 				BE85A8F61F4443BE00A3AA69 /* StrategyColumnCellCell.swift in Sources */,
 				BE28EE6A1EA07EEA00E75860 /* ClassifyViewController.swift in Sources */,
+				BE85AA921F4C2BE800A3AA69 /* AllColumnViewController.swift in Sources */,
 				BE28EE211E9F832300E75860 /* UIImage+Extension.swift in Sources */,
 				BE2B8F6A1F345B7F00605BBD /* MaskCoverView.swift in Sources */,
+				BE85AA941F4C32F400A3AA69 /* AllClassifyViewController.swift in Sources */,
 				BE28EE681EA07ED800E75860 /* HotViewController.swift in Sources */,
+				BE85AA861F4C14C600A3AA69 /* ColumnListHeader.swift in Sources */,
 				BE28EE151E9F6A1A00E75860 /* Common.swift in Sources */,
 				BE28EDE11E9F53B600E75860 /* AppDelegate.swift in Sources */,
 				6AE861551F39FEB400D56AD0 /* BaseGoodsCell.swift in Sources */,
@@ -711,9 +763,13 @@
 				BE28EE631EA07E3A00E75860 /* HomeViewController.swift in Sources */,
 				BE2B8F9C1F38745100605BBD /* ChoiceStrategyViewController.swift in Sources */,
 				BE85A8E71F4421F200A3AA69 /* StrategyViewController.swift in Sources */,
+				BE85AA7B1F4C08A300A3AA69 /* SingleGifCell.swift in Sources */,
+				BE85AA8A1F4C1A0100A3AA69 /* SingleGifViewController.swift in Sources */,
+				BE85AA901F4C275600A3AA69 /* CommonGoodsFeedViewController.swift in Sources */,
 				BE2B8F711F35BC4800605BBD /* BaseStrategyFeedController.swift in Sources */,
 				BE2B8FA21F3963E600605BBD /* BaseGoodsFeedViewController.swift in Sources */,
 				BE85A8EE1F443BB900A3AA69 /* StrategyCategoryCell.swift in Sources */,
+				BE85AA7F1F4C0BD000A3AA69 /* SingleGifColumnCell.swift in Sources */,
 				6AE861581F3A02AC00D56AD0 /* BaseGoodCellModel.swift in Sources */,
 				BE2B8F941F3866FB00605BBD /* TopicCollectionView.swift in Sources */,
 				BE28EE251EA06EEF00E75860 /* UIButton+Extension.swift in Sources */,

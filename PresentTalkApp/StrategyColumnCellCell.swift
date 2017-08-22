@@ -29,7 +29,6 @@ class StrategyColumnCellCell: UICollectionViewCell {
         viewAllBtn.layer.borderWidth = 0.5
 
         
-        
     }
     @IBAction func viewAllBtnAction(_ sender: Any) {
     }
