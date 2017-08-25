@@ -90,6 +90,9 @@
 		BE85AA901F4C275600A3AA69 /* CommonGoodsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA8F1F4C275600A3AA69 /* CommonGoodsFeedViewController.swift */; };
 		BE85AA921F4C2BE800A3AA69 /* AllColumnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA911F4C2BE800A3AA69 /* AllColumnViewController.swift */; };
 		BE85AA941F4C32F400A3AA69 /* AllClassifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA931F4C32F400A3AA69 /* AllClassifyViewController.swift */; };
+		BE85AA961F4C37F700A3AA69 /* ColumnListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA951F4C37F700A3AA69 /* ColumnListViewController.swift */; };
+		BE85AA9D1F4FBA9D00A3AA69 /* UISearchBar+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA9C1F4FBA9D00A3AA69 /* UISearchBar+Extension.swift */; };
+		BE85AA9F1F4FC46300A3AA69 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE85AA9E1F4FC46300A3AA69 /* UIBarButtonItem+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -202,6 +205,9 @@
 		BE85AA8F1F4C275600A3AA69 /* CommonGoodsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonGoodsFeedViewController.swift; sourceTree = "<group>"; };
 		BE85AA911F4C2BE800A3AA69 /* AllColumnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllColumnViewController.swift; sourceTree = "<group>"; };
 		BE85AA931F4C32F400A3AA69 /* AllClassifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllClassifyViewController.swift; sourceTree = "<group>"; };
+		BE85AA951F4C37F700A3AA69 /* ColumnListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColumnListViewController.swift; sourceTree = "<group>"; };
+		BE85AA9C1F4FBA9D00A3AA69 /* UISearchBar+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extension.swift"; sourceTree = "<group>"; };
+		BE85AA9E1F4FC46300A3AA69 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -376,6 +382,8 @@
 			children = (
 				BE28EE201E9F832300E75860 /* UIImage+Extension.swift */,
 				BE28EE241EA06EEF00E75860 /* UIButton+Extension.swift */,
+				BE85AA9C1F4FBA9D00A3AA69 /* UISearchBar+Extension.swift */,
+				BE85AA9E1F4FC46300A3AA69 /* UIBarButtonItem+Extension.swift */,
 				BE2B8F9D1F395A7E00605BBD /* OCBridgingHeader.h */,
 			);
 			name = Extension;
@@ -448,6 +456,7 @@
 				BE85AA891F4C1A0100A3AA69 /* SingleGifViewController.swift */,
 				BE85AA911F4C2BE800A3AA69 /* AllColumnViewController.swift */,
 				BE85AA931F4C32F400A3AA69 /* AllClassifyViewController.swift */,
+				BE85AA951F4C37F700A3AA69 /* ColumnListViewController.swift */,
 				BE2556C41F3BEF1900BFF207 /* View */,
 			);
 			name = Classify;
@@ -578,7 +587,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = PingAnXL;
 				TargetAttributes = {
 					BE28EDDC1E9F53B600E75860 = {
@@ -738,6 +747,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE2B8F5F1F341AB200605BBD /* PopoverCategoryView.swift in Sources */,
+				BE85AA961F4C37F700A3AA69 /* ColumnListViewController.swift in Sources */,
 				BE2B8F741F35C8F200605BBD /* BaseStrategyCell.swift in Sources */,
 				BE85A8F21F44408300A3AA69 /* StrategyColumnCell.swift in Sources */,
 				BE2B8F8C1F3856EA00605BBD /* BannerCollectionView.swift in Sources */,
@@ -767,12 +777,14 @@
 				BE85AA8A1F4C1A0100A3AA69 /* SingleGifViewController.swift in Sources */,
 				BE85AA901F4C275600A3AA69 /* CommonGoodsFeedViewController.swift in Sources */,
 				BE2B8F711F35BC4800605BBD /* BaseStrategyFeedController.swift in Sources */,
+				BE85AA9D1F4FBA9D00A3AA69 /* UISearchBar+Extension.swift in Sources */,
 				BE2B8FA21F3963E600605BBD /* BaseGoodsFeedViewController.swift in Sources */,
 				BE85A8EE1F443BB900A3AA69 /* StrategyCategoryCell.swift in Sources */,
 				BE85AA7F1F4C0BD000A3AA69 /* SingleGifColumnCell.swift in Sources */,
 				6AE861581F3A02AC00D56AD0 /* BaseGoodCellModel.swift in Sources */,
 				BE2B8F941F3866FB00605BBD /* TopicCollectionView.swift in Sources */,
 				BE28EE251EA06EEF00E75860 /* UIButton+Extension.swift in Sources */,
+				BE85AA9F1F4FC46300A3AA69 /* UIBarButtonItem+Extension.swift in Sources */,
 				BE2B8F911F3863F600605BBD /* BannerCell.swift in Sources */,
 				BE2556C61F3BEF4A00BFF207 /* ClassifyTitleView.swift in Sources */,
 			);
@@ -850,7 +862,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -893,7 +905,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -905,6 +917,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B718026C931DB143FA216417 /* Pods-PresentTalkApp.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
@@ -924,6 +937,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A5CBA45C833981546F3B8102 /* Pods-PresentTalkApp.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;

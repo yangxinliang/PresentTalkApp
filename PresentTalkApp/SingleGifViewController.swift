@@ -58,13 +58,12 @@ class SingleGifViewController: BaseViewController {
     fileprivate lazy var collectionView: UICollectionView = {
     
         let collectionView = UICollectionView(frame: CGRect.zero, collectionViewLayout:SingleGifCollectionFlowLayout())
-        
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.backgroundColor = UIColor.white
         collectionView.showsVerticalScrollIndicator = false
         collectionView.showsHorizontalScrollIndicator = false
-        collectionView.register(UINib(nibName: "SingleGifSectionView", bundle: nil), forCellWithReuseIdentifier: cellID)
+        collectionView.register(UINib(nibName: "SingleGifCell", bundle: nil), forCellWithReuseIdentifier: cellID)
          collectionView.register(UINib(nibName: "SingleGifSectionView", bundle: nil), forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: sectionID)
         
         
@@ -91,9 +90,7 @@ class SingleGifViewController: BaseViewController {
     
         return tableView;
     }()
-    
-    
-    
+  
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -106,9 +103,6 @@ class SingleGifViewController: BaseViewController {
 
 // collection的代理方法
 extension SingleGifViewController: UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
-
-
-    
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
         return 18

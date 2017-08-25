@@ -7,8 +7,6 @@
 //
 
 import UIKit
-
-
 private let cellCollumns = 2
 private let cellMargin: CGFloat = 10.0
 private let columnCellHeight: CGFloat = 250.0
@@ -27,29 +25,26 @@ class StrategyViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setUpUI()
     }
 
     // 设置view的frame
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-        
+        setupUIFrame()
     }
   
     // 定制UI
     fileprivate func setUpUI() {
         automaticallyAdjustsScrollViewInsets = false
         view.backgroundColor = UIColor.white
-//        view.addSubview(coll)
-    
-    
+        view.addSubview(collectionView)
     
     }
     
     fileprivate func setupUIFrame() {
     
-    
-    
+        collectionView.frame = view.bounds
     
     }
     
@@ -61,20 +56,15 @@ class StrategyViewController: BaseViewController {
             collection.backgroundColor = UIColor.white
             collection.showsHorizontalScrollIndicator = false
             collection.showsVerticalScrollIndicator = false
-        
-    
-    
-    
-    
-    
-        return collection
+            collection.register(UINib(nibName: "StrategyColumnCell",bundle:nil), forCellWithReuseIdentifier: columnCellID)
+            collection.register(UINib(nibName: "StrategyCategoryCell", bundle: nil), forCellWithReuseIdentifier: categoryCellID)
+            collection.register(UINib(nibName: "StrategySectionView", bundle: nil), forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: sectionID)
+            let section = Bundle.main.loadNibNamed("StrategySectionView", owner: self, options: nil)?.last!
+            let ceollectionLayout = collection.collectionViewLayout as! UICollectionViewFlowLayout
+            return collection
     }()
     
     
-    
-    
-  
-
 }
 extension StrategyViewController: UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
 
@@ -88,17 +78,26 @@ extension StrategyViewController: UICollectionViewDelegate,UICollectionViewDataS
 
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if indexPath.section == 0 {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: columnCellID, for: indexPath)
-            
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: columnCellID, for: indexPath) as! StrategyColumnCell
             return cell
-            
         }
-        
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: categoryCellID, for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: categoryCellID, for: indexPath) as! StrategyCategoryCell
         
         return cell;
     }
     
+    func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        let sectionView = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionElementKindSectionHeader, withReuseIdentifier: sectionID, for: indexPath) as! StrategySectionView
+        sectionView.hideMarginTopView(indexPath.section == 0 ? true : false)
+        sectionView.viewAllBtn.tag = indexPath.section
+        return sectionView
+
+    }
+    
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        navigationController?.pushViewController(CommonStrategyViewController(), animated: true)
+    }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
         if indexPath.section == 0 {
@@ -138,8 +137,9 @@ class StrategySectionView: UICollectionReusableView {
     }
     
     @IBAction func viewAllBtnAction(_ sender: Any) {
-        
-        
+        let tabBarViewController = UIApplication.shared.keyWindow?.rootViewController as! TabBarViewController
+        let navigationController = tabBarViewController.viewControllers![tabBarViewController.selectedIndex] as! UINavigationController
+        navigationController.pushViewController((sender as AnyObject).tag == 0 ? AllColumnViewController() : AllClassifyViewController(), animated: true)
     
         
     }
