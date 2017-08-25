@@ -33,6 +33,7 @@ class ClassifyTitleView: UIView {
     // 重写父类的方法 layoutSubviews
     override func layoutSubviews() {
         super.layoutSubviews()
+        setUpUIFrame()
     }
     
     // MARK: --视图
@@ -83,13 +84,6 @@ class ClassifyTitleView: UIView {
     func scrollLine(_ scrollViewWidth: CGFloat, offsetX: CGFloat){
         line.frame.origin.x = lineMargin * 0.5 + offsetX / scrollViewWidth * (bounds.width - line.bounds.width - lineMargin)
     }
-    
-    
-    
-    
-    
-    
-    
-    
+  
 
 }

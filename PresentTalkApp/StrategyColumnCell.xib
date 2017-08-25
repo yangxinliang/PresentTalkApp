@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="310" height="183"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ezP-yS-rBs">
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ezP-yS-rBs">
                             <size key="itemSize" width="50" height="50"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -34,6 +34,7 @@
             <connections>
                 <outlet property="collectionView" destination="f6C-d3-ay2" id="jA9-vU-klx"/>
             </connections>
+            <point key="canvasLocation" x="34" y="55.5"/>
         </collectionViewCell>
     </objects>
 </document>
